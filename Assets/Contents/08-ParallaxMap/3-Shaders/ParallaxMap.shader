@@ -59,6 +59,7 @@ Shader "Custom/08-ParallaxMap/ParallaxMap"
         real2 uv : TEXCOORD0;
         real4 positionOS : POSITION;
         real3 normalOS : NORMAL;
+        real4 tangentOS : TANGENT;
       };
 
       struct v2f
@@ -76,7 +77,7 @@ Shader "Custom/08-ParallaxMap/ParallaxMap"
         v2f o = (v2f)0;
 
         VertexPositionInputs positionInputs = GetVertexPositionInputs(v.positionOS.xyz);
-        VertexNormalInputs normalInputs = GetVertexNormalInputs(v.normalOS);
+        VertexNormalInputs normalInputs = GetVertexNormalInputs(v.normalOS, v.tangentOS);
         
         o.uv = v.uv;
 

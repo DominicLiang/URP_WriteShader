@@ -58,7 +58,7 @@ Material:
     - _RefractFactor: 0.01
     - _ShineFactor: 15
     m_Colors:
-    - _CausticsColor: {r: 0.85518754, g: 1, b: 0, a: 1}
+    - _CausticsColor: {r: 1, g: 0.36335668, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShineColor: {r: 0.6839622, g: 0.96749973, b: 1, a: 1}

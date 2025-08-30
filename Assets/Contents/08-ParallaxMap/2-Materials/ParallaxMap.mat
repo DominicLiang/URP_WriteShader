@@ -24,20 +24,20 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8830f22209fc0415aa6d6b0a52ee71cf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7146eb7c32b3e4140aef7fa5622d8866, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: d2dd31dded6f447498b90cd02219d0d1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f1bcb6ca7f1a0714a914b2c858e96905, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 5ca32526fa40d4d00b99a8bbb4ad079c, type: 3}
+        m_Texture: {fileID: 2800000, guid: c26415d341de4bf4e84342efcc2bba55, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ParallaxScale: 0.05
+    - _ParallaxScale: -0.03
     m_Colors:
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FurAlpha: 0.05
+    - _FurAlpha: 0.01
     - _FurAlphaFactor: 0.05
     - _FurFactor: 0.015
     m_Colors:
